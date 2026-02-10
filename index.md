@@ -1,0 +1,1 @@
+Hi, I'm Moulik. I'm currently in my freshman year, pursuing a Master of Science in Data Science from the University of Colorado Boulder. I graduated from the Indian Institute of Technology Kharagpur in 2025 with a B.S. in Physics.
