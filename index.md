@@ -102,7 +102,7 @@ At IISER, I developed subgenre classification models using hybrid neural and lin
 
 ## Selected Projects
 
-**Machine Learning–Driven Discovery of Stable Heusler Alloys**
+**Machine Learning – Driven Discovery of Stable Heusler Alloys**
 
 This project focused on predicting thermodynamic stability in Heusler compounds using supervised and generative machine learning models. I implemented XGBoost classifiers achieving high test accuracy and CGCNN graph neural networks with strong R² performance for formation energy prediction. To explore compositional search, I trained conditional WGAN-GP models to generate candidate stable alloys. The workflow integrated materials database preprocessing, compositional feature engineering, and graph-based structural representations.
 
