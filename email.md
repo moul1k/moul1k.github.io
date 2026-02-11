@@ -1,0 +1,1 @@
+<script> window.location.href = "mailto:Moulik.Kumar@colorado.edu"; </script>
