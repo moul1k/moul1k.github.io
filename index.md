@@ -3,18 +3,9 @@ layout: default
 ---
 
 <style>
-body {
-  line-height: 1.45;
-}
+body { line-height: 1.45; }
 
-h2 {
-  margin-top: 22px;
-  margin-bottom: 6px;
-}
-
-p {
-  margin: 6px 0;
-}
+h2 { margin-top: 24px; margin-bottom: 6px; }
 
 .section-divider {
   margin: 22px 0;
@@ -22,7 +13,8 @@ p {
 }
 
 .top-links {
-  margin: 6px 0 12px 0;
+  margin-top: 6px;
+  margin-bottom: 12px;
 }
 
 .top-links a {
@@ -32,9 +24,7 @@ p {
   text-decoration: none;
 }
 
-.top-links a:hover {
-  text-decoration: underline;
-}
+.top-links a:hover { text-decoration: underline; }
 
 .button-link {
   display: inline-block;
@@ -54,102 +44,88 @@ p {
 }
 </style>
 
-<div style="text-align: center;">
+<p align="center">
+<img src="profile.jpeg" width="115" style="border-radius:50%;">
+</p>
 
-<img src="profile.jpeg" width="115" style="border-radius: 50%; margin-bottom: 8px;" />
-
-<h1 style="margin: 6px 0;">Moulik Kumar</h1>
+<h1 align="center">Moulik Kumar</h1>
 
 I’m a graduate student in **Data Science at the University of Colorado Boulder**, originally from **Pune, India**. Before moving into data science, I studied **Physics at IIT Kharagpur**, where I became interested in how mathematical structure and computational systems intersect.
 
-I’m drawn to problems that are analytically grounded yet operationally complex — building models that clarify structure rather than merely optimize metrics.
+I’m drawn to analytically grounded yet operationally complex problems — building models that clarify structure rather than merely optimize metrics.
 
-<div class="section-divider"></div>
+---
 
 ## Current Work & Interests
 
-I’m currently working under **Professor Maria Antoniak** on annotating and identifying literary clichés in model-generated prose, studying how large language models internalize and reproduce narrative conventions.
+I’m currently working under **[Professor Maria Antoniak](https://maria-antoniak.github.io/)** on annotating and identifying literary clichés in model-generated prose, studying how large language models internalize and reproduce narrative conventions.
 
 My broader interests include NLP, computer vision, scientific and physics-informed ML, quantitative data analysis, and quantum information theory.
 
-<div class="section-divider"></div>
+---
 
 ## Work Experience
 
 **PubMatic — CTO Team Intern (Machine Learning)**  
 
-Built multimodal ML systems during the 2024 U.S. election cycle, integrating visual, audio, and textual signals into production-scale classification pipelines. Working in a real deployment environment reshaped how I think about modeling — latency, robustness, and edge cases matter as much as accuracy.
-
-<br>
+At PubMatic, I worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle. The system integrated visual embeddings from video frames, OCR-extracted textual signals, and audio-derived features into unified classification pipelines. I helped design model architectures combining CNN-based encoders with transformer-style representations and structured advertiser metadata. The deployment pipeline processed large-scale campaign datasets using optimized Python and SQL workflows for near real-time inference. Performance was evaluated using precision-recall metrics under class imbalance constraints, achieving high precision in candidate identification tasks. I also contributed to entity resolution systems using fuzzy matching and named entity recognition models with near-production precision levels.
 
 **IISER Bhopal — Summer Research Intern (NLP)**  
 
-Developed hybrid neural + linguistic feature models for subgenre classification. This experience sharpened my focus on controlled experimentation and evaluation rigor rather than architectural novelty.
+At IISER, I developed subgenre classification models using hybrid neural and linguistic feature approaches on the Brown corpus. The system combined BiLSTMs with attention mechanisms, TF-IDF features, and structured syntactic indicators. Careful preprocessing ensured clean train-test splits and minimized leakage across categories. Multiple architectures were evaluated under cross-validation to stabilize macro-F1 performance. The final model balanced interpretability with competitive classification accuracy across subgenres.
 
-<div class="section-divider"></div>
+---
 
 ## Selected Projects
 
 **Machine Learning–Driven Discovery of Stable Heusler Alloys**
 
-Originally my undergraduate thesis, this project explored scientific ML for alloy stability prediction. I built feature-based XGBoost models, CGCNN graph networks, and conditional WGAN-GP generators to synthesize candidate compounds. The most interesting part was interpreting why certain compositional patterns drive thermodynamic stability.
+This project focused on predicting thermodynamic stability in Heusler compounds using supervised and generative machine learning models. I implemented XGBoost classifiers achieving high test accuracy and CGCNN graph neural networks with strong R² performance for formation energy prediction. To explore compositional search, I trained conditional WGAN-GP models to generate candidate stable alloys. The workflow integrated materials database preprocessing, compositional feature engineering, and graph-based structural representations.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
-
-<br>
 
 **Building Resilience through ESG: Evaluating Indian PSUs**
 
-Combined panel econometrics and machine learning to model how ESG indicators relate to financial resilience under simulated stress scenarios. This project pushed me to think carefully about robustness, bias, and interpretability in financial systems.
+This project examined how ESG indicators correlate with financial resilience using panel econometrics and machine learning. I implemented fixed-effects regression models, GMM estimators, and simulated stress-testing scenarios across multi-year PSU financial datasets. Feature normalization and structured panel construction were central to the modeling process. Results identified statistically significant governance-related indicators associated with resilience under adverse conditions.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
-
-<br>
 
 **Statistical NLP Analysis of Literary Style**
 
-Compared classical literature with modern online creative writing using hypothesis testing and bootstrap resampling. Rather than treating style as classification, I treated it as measurable divergence across lexical and structural dimensions.
+This analysis compared stylistic distributions between Project Gutenberg texts and Reddit WritingPrompts data. I applied lexical richness metrics, readability indices, hypothesis testing, and bootstrap resampling to quantify stylistic divergence. Rather than treating style as classification, the focus was on measuring distributional shifts across lexical and structural dimensions.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
-
-<br>
 
 **Learning to Control Active Matter**
 
-Applied TD Actor-Critic reinforcement learning to influence collective particle dynamics in stochastic simulations. Watching global structure emerge from local rules — and then learning how to steer it — was particularly compelling.
+This project applied TD Actor-Critic reinforcement learning to stochastic particle simulations inspired by Vicsek-style collective motion models. The environment modeled alignment dynamics under noise, and policies were evaluated using order parameters and convergence metrics. The integration of numerical simulation and policy-gradient optimization enabled controllable emergent behavior.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
-
-<br>
 
 **Quantum Prisoner’s Dilemma Simulation**
 
-Implemented parameterized quantum strategies in IBM Qiskit to analyze how entanglement alters equilibrium behavior. This project deepened my interest in computational game theory and quantum systems.
+Using IBM Qiskit, I implemented parameterized quantum strategies encoded as unitary transformations on entangled qubit states. Payoff matrices were computed across varying entanglement strengths to observe equilibrium shifts. The simulations demonstrated convergence toward cooperative equilibria under maximal entanglement.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
-
-<br>
 
 **Diffusion-Limited Aggregation (Fractal Simulation)**
 
-Simulated stochastic aggregation processes to model fractal growth and emergent geometric structure. It remains one of the earliest examples that shaped how I think about complexity arising from simple dynamics.
+This simulation modeled stochastic random-walk particle attachment to generate fractal growth structures. Fractal dimensions were estimated using box-counting methods to validate scaling behavior. The results aligned with theoretical DLA properties observed in statistical physics literature.
 
 <a href="#" class="button-link">Paper</a>
 <a href="#" class="button-link">Code</a>
 
-<div class="section-divider"></div>
+---
 
 ## Publications
 
 **Multi-Modal Machine Learning for Political Video Advertisement Analysis**  
 <a href="https://www.ijcaonline.org/archives/volume186/number46/multi-modal-machine-learning-for-political-video-advertisement-analysis-integrating-audio-textual-and-visual-features/" class="button-link" target="_blank">View</a>
-
-<br>
 
 **Building Resilience through ESG: Evaluating Indian PSUs**  
 <a href="https://drive.google.com/file/d/1GPjbZ0KNkRzsak2oeGqKfjWsh2IO8HDt/view?usp=sharing" class="button-link" target="_blank">View</a>
