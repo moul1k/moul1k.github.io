@@ -3,9 +3,27 @@ layout: default
 ---
 
 <style>
-body { line-height: 1.45; }
+body {
+  line-height: 1.45;
+}
 
-h2 { margin-top: 24px; margin-bottom: 6px; }
+.wrapper {
+  max-width: 760px;
+}
+
+h1 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  margin-top: 22px;
+  margin-bottom: 6px;
+}
+
+p {
+  margin: 6px 0;
+}
 
 .section-divider {
   margin: 22px 0;
@@ -22,13 +40,17 @@ h2 { margin-top: 24px; margin-bottom: 6px; }
   font-weight: 500;
   color: #1f4fd8;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-.top-links a:hover { text-decoration: underline; }
+.top-links a:hover {
+  text-decoration: underline;
+  color: #163bb5;
+}
 
 .button-link {
   display: inline-block;
-  padding: 3px 8px;
+  padding: 3px 9px;
   margin-right: 6px;
   margin-top: 6px;
   font-size: 13px;
@@ -36,6 +58,7 @@ h2 { margin-top: 24px; margin-bottom: 6px; }
   border-radius: 4px;
   color: #1f4fd8;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 .button-link:hover {
@@ -43,6 +66,7 @@ h2 { margin-top: 24px; margin-bottom: 6px; }
   color: white;
 }
 </style>
+
 
 <p align="center">
 <img src="profile.jpeg" width="115" style="border-radius:50%;">
@@ -58,7 +82,7 @@ I’m drawn to analytically grounded yet operationally complex problems — buil
 
 ## Current Work & Interests
 
-I’m currently working under **[Professor Maria Antoniak](https://maria-antoniak.github.io/)** on annotating and identifying literary clichés in model-generated prose, studying how large language models internalize and reproduce narrative conventions.
+I’m currently working under **[Professor Maria Antoniak](https://maria-antoniak.github.io/)** on annotating and identifying literary clichés in model-generated prose, studying how large language models internalize and reproduce literary conventions.
 
 My broader interests include NLP, computer vision, scientific and physics-informed ML, quantitative data analysis, and quantum information theory.
 
