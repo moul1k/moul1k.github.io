@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div style="text-align: center; margin-top: 20px;">
-  <img src="profile.jpg" width="140" style="border-radius: 50%;" />
+  <img src="profile.jpeg" width="140" style="border-radius: 50%;" />
 </div>
 
 <div style="text-align: center;">
