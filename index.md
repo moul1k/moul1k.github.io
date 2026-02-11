@@ -1,51 +1,94 @@
 ---
-layout: default
-title: Home
+layout: home
 ---
 
 <style>
 body {
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 h2 {
-  margin-top: 18px;
-  margin-bottom: 6px;
-}
-
-p {
-  margin-top: 4px;
+  margin-top: 26px;
   margin-bottom: 8px;
 }
 
 .section-divider {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  border-top: 1px solid #e6e6e6;
 }
 
 strong {
   font-weight: 600;
 }
 
-a {
+.top-links {
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+.top-links a {
+  margin-right: 16px;
+  font-weight: 500;
   color: #1f4fd8;
   text-decoration: none;
 }
 
-a:hover {
+.top-links a:hover {
   text-decoration: underline;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 6px;
+  margin-top: 4px;
+  font-size: 14px;
+  border: 1px solid #1f4fd8;
+  border-radius: 4px;
+  color: #1f4fd8;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #1f4fd8;
+  color: white;
 }
 </style>
 
-<img src="profile.jpeg" width="110" style="border-radius: 50%; margin-bottom: 10px;" />
+<div style="text-align: center;">
+
+<img src="profile.jpg" width="120" style="border-radius: 50%; margin-bottom: 10px;" />
 
 # Moulik Kumar
+
+<div class="top-links">
+<a href="https://www.linkedin.com/in/moulikkumar/" target="_blank">LinkedIn</a>
+<a href="https://drive.google.com/file/d/1-Qs7GMrYQS9frWF9qI4hYe8L7YPGWXr-/view?usp=sharing" target="_blank">Resume</a>
+<a href="mailto:Moulik.Kumar@colorado.edu">Email</a>
+</div>
+
+</div>
 
 I’m a graduate student in **Data Science at the University of Colorado Boulder**, originally from **Pune, India**.  
 Before moving into data science, I studied **Physics at IIT Kharagpur**, where I became interested in how mathematical structure and computational systems intersect.
 
-Broadly, I’m drawn to problems that are analytically grounded yet operationally complex.  
-I like building models that don’t just predict well, but clarify the structure of the systems they describe — whether in materials discovery, language, financial systems, or production-scale ML.
+I’m drawn to problems that are analytically grounded yet operationally complex.  
+Across materials discovery, language modeling, financial systems, and production ML, I enjoy building models that clarify structure rather than merely optimize metrics.
+
+<div class="section-divider"></div>
+
+## Current Work & Interests
+
+I’m currently working under **Professor Maria Antoniak** at CU Boulder on annotating and identifying literary clichés in model-generated prose — studying how large language models reproduce stylistic conventions and narrative tropes.
+
+My broader interests include:
+
+- Natural Language Processing  
+- Computer Vision  
+- Scientific & Physics-informed Machine Learning  
+- Data Science and Quantitative Analysis  
+- Quantum Information Theory  
 
 <div class="section-divider"></div>
 
@@ -53,92 +96,81 @@ I like building models that don’t just predict well, but clarify the structure
 
 **PubMatic — CTO Team Intern (Machine Learning)**  
 
-At PubMatic, I worked on multimodal machine learning systems during the 2024 U.S. election cycle.  
-My focus was on combining visual, audio, and textual signals into models that could operate reliably at production scale.
+Worked on multimodal ML systems during the 2024 U.S. election cycle, combining visual, audio, and textual signals for production-scale classification systems.
 
-Beyond model design, I learned what deployment truly means — latency constraints, imperfect data, adversarial edge cases, and collaboration across engineering teams.  
-That experience fundamentally reshaped how I think about applied machine learning.
+That experience reshaped how I think about applied machine learning — particularly how deployment constraints influence modeling decisions.
 
 <br>
 
 **IISER Bhopal — Summer Research Intern (NLP)**  
 
-At IISER, I worked on subgenre classification using neural architectures alongside classical linguistic features.  
-This is where I began thinking more critically about evaluation — why metrics move, when they don’t, and what genuinely improves generalization.
-
-It was also where I developed an appreciation for careful experimentation over architectural novelty.
+Explored neural architectures and linguistic feature integration for subgenre classification.  
+Developed a strong appreciation for evaluation rigor and controlled experimentation.
 
 <div class="section-divider"></div>
 
 ## Selected Projects
 
-**Machine Learning–Driven Discovery of Stable Heusler Alloys**  
+**Machine Learning–Driven Discovery of Stable Heusler Alloys**
 
-Originally my undergraduate thesis, this project evolved into a broader exploration of scientific machine learning.  
-I worked with feature-based models, graph neural networks (CGCNN), and generative adversarial models to predict and synthesize stable Heusler compounds.
+Scientific ML exploration using feature-based models, CGCNN, and generative adversarial networks for alloy stability prediction.
 
-What interested me most was not just predictive performance, but understanding why certain compositional and structural patterns drive stability.
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
-[Paper] · [Code]
+<br><br>
 
-<br>
+**Building Resilience through ESG: Evaluating Indian PSUs**
 
-**Building Resilience through ESG: Evaluating Indian PSUs**  
+Econometric and ML modeling of ESG-driven financial resilience under simulated stress.
 
-This project examined how ESG indicators relate to financial resilience under simulated economic stress.  
-It combined econometrics and machine learning, pushing me to think about robustness, interpretability, and structural bias in financial modeling.
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
-[Paper] · [Code]
+<br><br>
 
-<br>
+**Statistical NLP Analysis of Literary Style**
 
-**Statistical NLP Analysis of Literary Style (Gutenberg vs WritingPrompts)**  
+Quantitative study of stylistic divergence between classical literature and online creative writing.
 
-Here, I explored stylistic divergence between classical literature and modern online creative writing.  
-Using hypothesis testing, resampling methods, and structured feature engineering, I tried to quantify what we intuitively call “style.”
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
-[Paper] · [Code]
+<br><br>
 
-<br>
+**Learning to Control Active Matter**
 
-**Learning to Control Active Matter**  
+Reinforcement learning applied to stochastic particle dynamics and emergent collective behavior.
 
-At the intersection of physics and reinforcement learning, this project modeled collective particle motion and trained an RL agent to influence emergent behavior.
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
-Watching global structure emerge from local rules — and then learning how to steer it — was particularly compelling.
+<br><br>
 
-[Paper] · [Code]
+**Quantum Prisoner’s Dilemma Simulation**
 
-<br>
+Parameterized quantum strategies using IBM Qiskit to analyze entangled equilibrium outcomes.
 
-**Quantum Prisoner’s Dilemma Simulation**  
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
-Using IBM Qiskit, I implemented parameterized quantum strategies to explore how entanglement alters equilibrium outcomes.
+<br><br>
 
-This project deepened my interest in how computation interacts with game theory and strategic systems.
+**Diffusion-Limited Aggregation (Fractal Simulation)**
 
-[Paper] · [Code]
+Simulation of stochastic aggregation processes to model fractal growth dynamics.
 
-<br>
-
-**Diffusion-Limited Aggregation (Fractal Simulation)**  
-
-A simulation project exploring how simple stochastic attachment rules generate fractal growth and emergent geometric structure.
-
-It remains one of the earliest examples that shaped how I think about complexity emerging from minimal dynamics.
-
-[Paper] · [Code]
+<a href="#" class="button-link">Paper</a>
+<a href="#" class="button-link">Code</a>
 
 <div class="section-divider"></div>
 
 ## Publications
 
 **Multi-Modal Machine Learning for Political Video Advertisement Analysis**  
-International Journal of Computer Applications (2024)  
-[View Publication](https://www.ijcaonline.org/archives/volume186/number46/multi-modal-machine-learning-for-political-video-advertisement-analysis-integrating-audio-textual-and-visual-features/)
+<a href="https://www.ijcaonline.org/archives/volume186/number46/multi-modal-machine-learning-for-political-video-advertisement-analysis-integrating-audio-textual-and-visual-features/" class="button-link" target="_blank">View</a>
 
-<br>
+<br><br>
 
-**Building Resilience through ESG: Evaluating Indian PSUs in the Context of Global Emerging Markets**  
-International Conference on Business Analytics and Intelligence, IIM Bangalore (2024)  
-[View Paper](https://drive.google.com/file/d/1GPjbZ0KNkRzsak2oeGqKfjWsh2IO8HDt/view?usp=sharing)
+**Building Resilience through ESG: Evaluating Indian PSUs**  
+<a href="https://drive.google.com/file/d/1GPjbZ0KNkRzsak2oeGqKfjWsh2IO8HDt/view?usp=sharing" class="button-link" target="_blank">View</a>
