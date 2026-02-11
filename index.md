@@ -2,129 +2,111 @@
 layout: home
 ---
 
-<div style="text-align: center;">
-  <img src="profile.jpeg" width="150" style="border-radius: 50%; margin-bottom: 15px;" />
+<div style="text-align: center; margin-top: 20px;">
+  <img src="profile.jpg" width="140" style="border-radius: 50%;" />
 </div>
 
-# Moulik Kumar
+<div style="text-align: center;">
+  <h1 style="margin-bottom: 5px; font-size: 36px;">Moulik Kumar</h1>
+  <p style="font-size: 18px; color: #555;">
+    MS in Data Science · University of Colorado Boulder <br>
+    BS in Physics · IIT Kharagpur
+  </p>
+</div>
 
-MS in Data Science, University of Colorado Boulder  
-BS in Physics, Indian Institute of Technology Kharagpur  
+<br>
 
-I’m interested in building machine learning systems that are both scientifically grounded and practically useful. My work spans production ML in AdTech, scientific machine learning for materials discovery, statistical NLP, reinforcement learning, quantum simulations, and applied econometrics.
+<p style="font-size: 17px;">
+I build machine learning systems that are both scientifically grounded and practically useful. 
+My work spans production ML in AdTech, scientific machine learning for materials discovery, statistical NLP, reinforcement learning, quantum simulations, and applied econometrics.
+</p>
 
-I enjoy thinking about models not just as predictive tools, but as structured systems that reveal underlying patterns — whether in alloys, language, markets, or collective motion.
+<p style="font-size: 17px;">
+I’m particularly interested in models as structured systems — tools that help uncover underlying patterns in alloys, language, markets, and collective motion.
+</p>
 
+<br>
 
----
+## <span style="color:#1f4fd8;"><strong>Work Experience</strong></span>
 
-## Work Experience
+### <strong>PubMatic — CTO Team Intern (Machine Learning)</strong>
 
+Worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle.
 
-### PubMatic — CTO Team Intern (Machine Learning)
+Designed and deployed models combining audio, OCR, and vision signals into scalable inference pipelines supporting real-time ad classification and monetization workflows.
 
-At PubMatic, I worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle.
+Built data pipelines using SQL and Python, developed candidate verification systems using fuzzy matching and NER (98.7% precision), and contributed to AdWise — a production ML system supporting 200+ advertisers and driving $18M+ in incremental revenue.
 
-I helped design and deploy models combining audio, OCR, and vision signals into scalable inference pipelines supporting real-time ad classification and monetization workflows.
+<br>
 
-I also built data pipelines using SQL and Python to analyze large advertiser datasets, developed candidate verification systems using fuzzy matching and NER (98.7% precision), and contributed to AdWise — a production ML system supporting 200+ advertisers and driving $18M+ in incremental revenue.
+### <strong>IISER Bhopal — Summer Research Intern (NLP)</strong>
 
+Developed hybrid deep learning models for subgenre classification within the Brown corpus, combining BiLSTMs, Transformer-style attention, TF-IDF features, and linguistic signals.
 
-### IISER Bhopal — Summer Research Intern (NLP)
+Focused heavily on feature engineering, hyperparameter tuning, and evaluation — understanding what actually moves F1 in practical classification tasks.
 
-At IISER, I worked on subgenre classification within the Brown corpus, building hybrid deep learning models combining BiLSTMs, Transformer-style attention, TF-IDF features, and linguistic signals.
+<br>
 
-I spent significant time experimenting with feature engineering, hyperparameter tuning, and evaluation metrics — focusing on what actually improves F1 in real classification tasks.
+## <span style="color:#1f4fd8;"><strong>Selected Projects</strong></span>
 
+### <strong>Machine Learning–Driven Discovery of Stable Heusler Alloys</strong>
 
----
+Built an end-to-end ML pipeline using:
 
-## Selected Projects
-
-
-### Machine Learning–Driven Discovery of Stable Heusler Alloys
-
-My undergraduate thesis focused on predicting and synthesizing stable Heusler compounds.
-
-I built an end-to-end ML pipeline using:
-
-- XGBoost classifiers (99% test accuracy, SHAP interpretability)
-- Crystal Graph Convolutional Neural Networks (R² = 0.92, MAE = 0.035 eV/atom)
-- Conditional WGAN-GP generative models (65% predicted stable candidates)
+- XGBoost classifiers (99% test accuracy, SHAP interpretability)  
+- Crystal Graph Convolutional Neural Networks (R² = 0.92, MAE = 0.035 eV/atom)  
+- Conditional WGAN-GP generative models (65% predicted stable candidates)  
 
 This project sits at the intersection of graph learning, physics, and generative modeling.
 
 [GitHub – Heusler Alloys]
 
+<br>
 
----
+### <strong>Building Resilience through ESG: Evaluating Indian PSUs</strong>
 
-### Building Resilience through ESG: Evaluating Indian PSUs
+Combined econometrics, stress testing, and machine learning to study ESG-driven financial resilience.
 
-This project combined econometrics, stress testing, and machine learning to study how ESG scores influence financial resilience.
-
-I developed panel regression and GMM estimators, simulated economic shocks (-10%, -20%, -30%), and built ML-based ESG performance metrics that improved governance resilience prediction by 15%.
+Developed panel regression and GMM estimators, simulated economic shocks, and built ML-based ESG metrics improving governance resilience prediction by 15%.
 
 [GitHub – ESG]
 
+<br>
 
----
+### <strong>Statistical NLP Analysis of Literary Style (Gutenberg vs WritingPrompts)</strong>
 
-### Statistical NLP Analysis of Literary Style (Gutenberg vs WritingPrompts)
-
-This project explored stylistic and statistical differences between classical literature and modern online creative writing.
-
-Using frequentist tests, bootstrap resampling, and feature engineering (lexical richness, readability, structural metrics), I quantified stylistic divergence and built interpretable models to analyze linguistic variation.
+Used frequentist testing, bootstrap resampling, lexical richness metrics, and readability analysis to quantify stylistic divergence between classical literature and modern online creative writing.
 
 [GitHub – Statistical NLP]
 
+<br>
 
----
+### <strong>Learning to Control Active Matter</strong>
 
-### Learning to Control Active Matter
-
-I implemented reinforcement learning (TD Actor-Critic) to control collective motion in active particle systems modeled using modified Vicsek and Langevin dynamics.
-
-The simulation framework integrated RL with stochastic physics models, achieving R² > 0.85 in particle transport validation.
+Implemented reinforcement learning (TD Actor-Critic) to control collective motion in active particle systems modeled using Vicsek and Langevin dynamics.
 
 [GitHub – Active Matter RL]
 
+<br>
 
----
+### <strong>Simulating the Prisoner’s Dilemma in a Quantum Environment</strong>
 
-### Simulating the Prisoner’s Dilemma in a Quantum Environment
-
-Using IBM Qiskit, I implemented parameterized quantum strategies and entangling circuits to simulate the Quantum Prisoner’s Dilemma.
-
-Under maximal entanglement, Nash and Pareto equilibria converge — validating theoretical results from quantum game theory literature.
+Implemented parameterized quantum strategies and entangling circuits using IBM Qiskit to simulate equilibrium behavior in quantum game-theoretic settings.
 
 [GitHub – Quantum Simulation]
 
+<br>
 
----
+### <strong>Diffusion-Limited Aggregation (Fractal Growth Simulation)</strong>
 
-### Diffusion-Limited Aggregation (Fractal Growth Simulation)
-
-This project modeled stochastic aggregation processes to study fractal growth and emergent geometry.
-
-I simulated particle attachment dynamics and computed fractal dimensions to analyze structural complexity.
+Modeled stochastic aggregation processes to study fractal growth, particle attachment dynamics, and emergent geometric complexity.
 
 [GitHub – DLA Simulation]
 
+<br>
 
----
-
-## Publications
+## <span style="color:#1f4fd8;"><strong>Publications</strong></span>
 
 - *Multi-Modal Machine Learning for Political Video Advertisement Analysis* — International Journal of Computer Applications (2024)
 
 - *Building Resilience through ESG: Evaluating Indian PSUs in the Context of Global Emerging Markets* — International Conference on Business Analytics and Intelligence, IIM Bangalore (2024)
-
-
----
-
-## Links
-
-LinkedIn: https://www.linkedin.com/in/moulikkumar/
-
-Resume: (steps below)
