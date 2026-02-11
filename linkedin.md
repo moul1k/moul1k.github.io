@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: LinkedIn
 ---
 
-https://www.linkedin.com/in/moulikkumar/
+<script>
+window.location.href = "https://www.linkedin.com/in/moulikkumar/";
+</script>

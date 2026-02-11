@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: Resume
 ---
 
-[Download Resume (PDF)](Moulik_Kumar_Resume.pdf)
+<script>
+window.location.href = "https://drive.google.com/file/d/1-Qs7GMrYQS9frWF9qI4hYe8L7YPGWXr-/view?usp=sharing";
+</script>
