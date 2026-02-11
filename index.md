@@ -46,7 +46,7 @@ p {
 
 <div style="text-align: center; margin-top: 25px;">
 
-  <img src="profile.jpg"
+  <img src="profile.jpeg"
        width="135"
        style="border-radius: 50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.12);" />
 
@@ -58,14 +58,6 @@ p {
     MS in Data Science · University of Colorado Boulder <br>
     BS in Physics · IIT Kharagpur
   </p>
-
-  <p style="font-size: 15px;">
-    <a href="https://www.linkedin.com/in/moulikkumar/" target="_blank">LinkedIn</a>
-    &nbsp;·&nbsp;
-    <a href="https://drive.google.com/file/d/1-Qs7GMrYQS9frWF9qI4hYe8L7YPGWXr-/view?usp=sharing" target="_blank">Resume</a>
-  </p>
-
-</div>
 
 <p>
 I build machine learning systems that are scientifically grounded and practically useful.

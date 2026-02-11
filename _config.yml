@@ -1,3 +1,27 @@
-title: Moulik Kumar
-description: MS Data Science @ CU Boulder | Physics @ IIT Kharagpur
-theme: minima
+title: "Moulik Kumar"
+email: Moulik.Kumar@colorado.com
+description: "MS Data Science @ CU Boulder | Physics @ IIT Kharagpur"
+baseurl: "" 
+url: "https://moul1k.github.io"
+theme: minimal-mistakes-jekyll
+
+# Navigation links for the top taskbar
+nav:
+  - title: "Home"
+    url: /
+  - title: "Resume"
+    external: true
+    url: "https://drive.google.com/file/d/1-Qs7GMrYQS9frWF9qI4hYe8L7YPGWXr-/view?usp=sharing"
+  - title: "LinkedIn"
+    external: true
+    url: "https://www.linkedin.com/in/moulikkumar/"
+
+# Author and social (optional)
+author:
+  name: "Moulik Kumar"
+
+social:
+  - icon: fab fa-linkedin
+    link: https://www.linkedin.com/in/moulikkumar/
+  - icon: fab fa-github
+    link: https://github.com/moul1k
