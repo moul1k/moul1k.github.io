@@ -2,6 +2,10 @@
 layout: home
 ---
 
+<div style="text-align: center;">
+  <img src="profile.jpeg" width="150" style="border-radius: 50%; margin-bottom: 15px;" />
+</div>
+
 # Moulik Kumar
 
 MS in Data Science, University of Colorado Boulder  
