@@ -76,7 +76,7 @@ p {
 
 I’m a graduate student in **Data Science at the University of Colorado Boulder**, originally from **Pune, India**. Before moving into data science, I studied **Physics at IIT Kharagpur**, where I became interested in how mathematical structure and computational systems intersect.
 
-I’m drawn to analytically grounded yet operationally complex problems — building models that clarify structure rather than merely optimize metrics.
+I’m drawn to analytically grounded yet operationally complex problems - building models that clarify structure rather than merely optimize metrics.
 
 ---
 
@@ -90,11 +90,11 @@ My broader interests include NLP, computer vision, scientific and physics-inform
 
 ## Work Experience
 
-**PubMatic — CTO Team Intern (Machine Learning)**  
+**PubMatic - CTO Team Intern (Machine Learning)**  
 
 At PubMatic, I worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle. The system integrated visual embeddings from video frames, OCR-extracted textual signals, and audio-derived features into unified classification pipelines. I helped design model architectures combining CNN-based encoders with transformer-style representations and structured advertiser metadata. The deployment pipeline processed large-scale campaign datasets using optimized Python and SQL workflows for near real-time inference. Performance was evaluated using precision-recall metrics under class imbalance constraints, achieving high precision in candidate identification tasks. I also contributed to entity resolution systems using fuzzy matching and named entity recognition models with near-production precision levels.
 
-**IISER Bhopal — Summer Research Intern (NLP)**  
+**IISER Bhopal - Summer Research Intern (NLP)**  
 
 At IISER, I developed subgenre classification models using hybrid neural and linguistic feature approaches on the Brown corpus. The system combined BiLSTMs with attention mechanisms, TF-IDF features, and structured syntactic indicators. Careful preprocessing ensured clean train-test splits and minimized leakage across categories. Multiple architectures were evaluated under cross-validation to stabilize macro-F1 performance. The final model balanced interpretability with competitive classification accuracy across subgenres.
 
