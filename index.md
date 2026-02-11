@@ -94,9 +94,12 @@ My broader interests include NLP, computer vision, scientific and physics-inform
 
 At PubMatic, I worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle. The system integrated visual embeddings from video frames, OCR-extracted textual signals, and audio-derived features into unified classification pipelines. I helped design model architectures combining CNN-based encoders with transformer-style representations and structured advertiser metadata. The deployment pipeline processed large-scale campaign datasets using optimized Python and SQL workflows for near real-time inference. Performance was evaluated using precision-recall metrics under class imbalance constraints, achieving high precision in candidate identification tasks. I also contributed to entity resolution systems using fuzzy matching and named entity recognition models with near-production precision levels.
 
+
 **IISER Bhopal - Summer Research Intern (NLP)**  
 
-At IISER, I developed subgenre classification models using hybrid neural and linguistic feature approaches on the Brown corpus. The system combined BiLSTMs with attention mechanisms, TF-IDF features, and structured syntactic indicators. Careful preprocessing ensured clean train-test splits and minimized leakage across categories. Multiple architectures were evaluated under cross-validation to stabilize macro-F1 performance. The final model balanced interpretability with competitive classification accuracy across subgenres.
+At IISER, I developed subgenre classification models using hybrid neural and linguistic feature approaches on the Brown corpus. The system combined a Hierarchical Attention Network, TF-IDF features, and structured syntactic indicators. Careful preprocessing ensured clean train-test splits and minimized leakage across categories. Multiple architectures were evaluated under cross-validation to stabilize macro-F1 performance. The final model balanced interpretability with competitive classification accuracy across subgenres.
+
+<a href="#" class="https://github.com/moul1k/subgenre_classification">Github</a>
 
 ---
 
@@ -106,43 +109,41 @@ At IISER, I developed subgenre classification models using hybrid neural and lin
 
 This project focused on predicting thermodynamic stability in Heusler compounds using supervised and generative machine learning models. I implemented XGBoost classifiers achieving high test accuracy and CGCNN graph neural networks with strong R² performance for formation energy prediction. To explore compositional search, I trained conditional WGAN-GP models to generate candidate stable alloys. The workflow integrated materials database preprocessing, compositional feature engineering, and graph-based structural representations.
 
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
+<a href="#" class="https://github.com/moul1k/heusler-alloys-ml">Github</a>
+
 
 **Building Resilience through ESG: Evaluating Indian PSUs**
 
 This project examined how ESG indicators correlate with financial resilience using panel econometrics and machine learning. I implemented fixed-effects regression models, GMM estimators, and simulated stress-testing scenarios across multi-year PSU financial datasets. Feature normalization and structured panel construction were central to the modeling process. Results identified statistically significant governance-related indicators associated with resilience under adverse conditions.
 
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
+<a href="#" class="https://github.com/moul1k/project_reports/blob/main/ESG_paper%20(1).pdf">Paper</a>
 
-**Statistical NLP Analysis of Literary Style**
+
+**Stylistic and Lexical Differences Between Classic Literature and Online Creative Writing**
 
 This analysis compared stylistic distributions between Project Gutenberg texts and Reddit WritingPrompts data. I applied lexical richness metrics, readability indices, hypothesis testing, and bootstrap resampling to quantify stylistic divergence. Rather than treating style as classification, the focus was on measuring distributional shifts across lexical and structural dimensions.
 
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
+<a href="#" class="https://github.com/moul1k/reddit_vs_gutenberg_mini">Github</a>
 
-**Learning to Control Active Matter**
 
-This project applied TD Actor-Critic reinforcement learning to stochastic particle simulations inspired by Vicsek-style collective motion models. The environment modeled alignment dynamics under noise, and policies were evaluated using order parameters and convergence metrics. The integration of numerical simulation and policy-gradient optimization enabled controllable emergent behavior.
-
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
-
-**Quantum Prisoner’s Dilemma Simulation**
+**Quantum Treatment of the Prisoner’s Dilemma**
 
 Using IBM Qiskit, I implemented parameterized quantum strategies encoded as unitary transformations on entangled qubit states. Payoff matrices were computed across varying entanglement strengths to observe equilibrium shifts. The simulations demonstrated convergence toward cooperative equilibria under maximal entanglement.
 
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
+<a href="#" class="https://github.com/moul1k/quantum_prison_dilemma">Github</a>
+
 
 **Diffusion-Limited Aggregation (Fractal Simulation)**
 
 This simulation modeled stochastic random-walk particle attachment to generate fractal growth structures. Fractal dimensions were estimated using box-counting methods to validate scaling behavior. The results aligned with theoretical DLA properties observed in statistical physics literature.
 
-<a href="#" class="button-link">Paper</a>
-<a href="#" class="button-link">Code</a>
+<a href="#" class="https://github.com/moul1k/project_reports/blob/main/Mini%20Project%20(2).pdf">Paper</a>
+
+
+**Learning to Control Active Matter**
+
+This project applied TD Actor-Critic reinforcement learning to stochastic particle simulations inspired by Vicsek-style collective motion models. The environment modeled alignment dynamics under noise, and policies were evaluated using order parameters and convergence metrics. The integration of numerical simulation and policy-gradient optimization enabled controllable emergent behavior.
+
 
 ---
 
