@@ -2,111 +2,162 @@
 layout: home
 ---
 
-<div style="text-align: center; margin-top: 20px;">
-  <img src="profile.jpeg" width="140" style="border-radius: 50%;" />
-</div>
+<style>
+.main-content {
+  max-width: 760px;
+}
 
-<div style="text-align: center;">
-  <h1 style="margin-bottom: 5px; font-size: 36px;">Moulik Kumar</h1>
-  <p style="font-size: 18px; color: #555;">
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+a {
+  color: #1f4fd8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  color: #1f4fd8;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+p {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+</style>
+
+<div style="text-align: center; margin-top: 25px;">
+
+  <img src="profile.jpg"
+       width="135"
+       style="border-radius: 50%; box-shadow: 0px 4px 10px rgba(0,0,0,0.12);" />
+
+  <h1 style="margin-top: 10px; margin-bottom: 3px; font-size: 34px; font-weight: 600;">
+    Moulik Kumar
+  </h1>
+
+  <p style="font-size: 16px; color: #555; margin-bottom: 6px;">
     MS in Data Science · University of Colorado Boulder <br>
     BS in Physics · IIT Kharagpur
   </p>
+
+  <p style="font-size: 15px;">
+    <a href="https://www.linkedin.com/in/moulikkumar/" target="_blank">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://drive.google.com/file/d/1-Qs7GMrYQS9frWF9qI4hYe8L7YPGWXr-/view?usp=sharing" target="_blank">Resume</a>
+  </p>
+
 </div>
 
-<br>
-
-<p style="font-size: 17px;">
-I build machine learning systems that are both scientifically grounded and practically useful. 
-My work spans production ML in AdTech, scientific machine learning for materials discovery, statistical NLP, reinforcement learning, quantum simulations, and applied econometrics.
+<p>
+I build machine learning systems that are scientifically grounded and practically useful.
+My work spans production ML in AdTech, scientific machine learning for materials discovery,
+statistical NLP, reinforcement learning, quantum simulations, and applied econometrics.
 </p>
 
-<p style="font-size: 17px;">
-I’m particularly interested in models as structured systems — tools that help uncover underlying patterns in alloys, language, markets, and collective motion.
+<p>
+I’m particularly interested in models as structured systems — tools that uncover
+patterns in alloys, language, markets, and collective motion.
 </p>
 
-<br>
+<hr>
 
-## <span style="color:#1f4fd8;"><strong>Work Experience</strong></span>
+<h2 class="section-title">Work Experience</h2>
 
-### <strong>PubMatic — CTO Team Intern (Machine Learning)</strong>
+<div class="project-title">PubMatic — CTO Team Intern (Machine Learning)</div>
 
-Worked on multimodal machine learning systems for political video advertisement analysis during the 2024 U.S. election cycle.
+<p>
+Worked on multimodal ML systems for political video advertisement analysis during the 2024 U.S. election cycle.
+Designed scalable inference pipelines combining audio, OCR, and vision signals.
+Built SQL + Python data systems and contributed to AdWise — supporting 200+ advertisers and generating $18M+ in incremental revenue.
+</p>
 
-Designed and deployed models combining audio, OCR, and vision signals into scalable inference pipelines supporting real-time ad classification and monetization workflows.
+<div class="project-title">IISER Bhopal — Summer Research Intern (NLP)</div>
 
-Built data pipelines using SQL and Python, developed candidate verification systems using fuzzy matching and NER (98.7% precision), and contributed to AdWise — a production ML system supporting 200+ advertisers and driving $18M+ in incremental revenue.
+<p>
+Built hybrid deep learning models for subgenre classification using BiLSTMs, attention mechanisms, TF-IDF features, and linguistic signals.
+Focused on experimentation and evaluation — understanding what meaningfully improves F1 in practice.
+</p>
 
-<br>
+<hr>
 
-### <strong>IISER Bhopal — Summer Research Intern (NLP)</strong>
+<h2 class="section-title">Selected Projects</h2>
 
-Developed hybrid deep learning models for subgenre classification within the Brown corpus, combining BiLSTMs, Transformer-style attention, TF-IDF features, and linguistic signals.
+<div class="project-title">Machine Learning–Driven Discovery of Stable Heusler Alloys</div>
 
-Focused heavily on feature engineering, hyperparameter tuning, and evaluation — understanding what actually moves F1 in practical classification tasks.
+<p>
+Built XGBoost classifiers (99% accuracy, SHAP interpretability), CGCNN models (R² = 0.92),
+and conditional WGAN-GP generators for stable alloy synthesis.
+</p>
 
-<br>
+<p><a href="#">GitHub – Heusler Alloys</a></p>
 
-## <span style="color:#1f4fd8;"><strong>Selected Projects</strong></span>
+<div class="project-title">Building Resilience through ESG: Evaluating Indian PSUs</div>
 
-### <strong>Machine Learning–Driven Discovery of Stable Heusler Alloys</strong>
+<p>
+Implemented panel regression, GMM estimators, and ML-based ESG metrics to model financial resilience under simulated economic shocks.
+</p>
 
-Built an end-to-end ML pipeline using:
+<p><a href="#">GitHub – ESG</a></p>
 
-- XGBoost classifiers (99% test accuracy, SHAP interpretability)  
-- Crystal Graph Convolutional Neural Networks (R² = 0.92, MAE = 0.035 eV/atom)  
-- Conditional WGAN-GP generative models (65% predicted stable candidates)  
+<div class="project-title">Statistical NLP Analysis of Literary Style</div>
 
-This project sits at the intersection of graph learning, physics, and generative modeling.
+<p>
+Used hypothesis testing, bootstrap resampling, and lexical richness metrics to quantify stylistic divergence between classical literature and online creative writing.
+</p>
 
-[GitHub – Heusler Alloys]
+<p><a href="#">GitHub – Statistical NLP</a></p>
 
-<br>
+<div class="project-title">Learning to Control Active Matter</div>
 
-### <strong>Building Resilience through ESG: Evaluating Indian PSUs</strong>
+<p>
+Applied reinforcement learning (TD Actor-Critic) to control collective particle motion in stochastic physics simulations.
+</p>
 
-Combined econometrics, stress testing, and machine learning to study ESG-driven financial resilience.
+<p><a href="#">GitHub – Active Matter RL</a></p>
 
-Developed panel regression and GMM estimators, simulated economic shocks, and built ML-based ESG metrics improving governance resilience prediction by 15%.
+<div class="project-title">Quantum Prisoner’s Dilemma Simulation</div>
 
-[GitHub – ESG]
+<p>
+Implemented parameterized quantum strategies using IBM Qiskit to analyze equilibrium behavior under entanglement.
+</p>
 
-<br>
+<p><a href="#">GitHub – Quantum Simulation</a></p>
 
-### <strong>Statistical NLP Analysis of Literary Style (Gutenberg vs WritingPrompts)</strong>
+<div class="project-title">Diffusion-Limited Aggregation (Fractal Simulation)</div>
 
-Used frequentist testing, bootstrap resampling, lexical richness metrics, and readability analysis to quantify stylistic divergence between classical literature and modern online creative writing.
+<p>
+Simulated stochastic aggregation processes to study fractal growth and structural scaling.
+</p>
 
-[GitHub – Statistical NLP]
+<p><a href="#">GitHub – DLA Simulation</a></p>
 
-<br>
+<hr>
 
-### <strong>Learning to Control Active Matter</strong>
+<h2 class="section-title">Publications</h2>
 
-Implemented reinforcement learning (TD Actor-Critic) to control collective motion in active particle systems modeled using Vicsek and Langevin dynamics.
+<p>
+• <em>Multi-Modal Machine Learning for Political Video Advertisement Analysis</em> — IJCA (2024)
+</p>
 
-[GitHub – Active Matter RL]
-
-<br>
-
-### <strong>Simulating the Prisoner’s Dilemma in a Quantum Environment</strong>
-
-Implemented parameterized quantum strategies and entangling circuits using IBM Qiskit to simulate equilibrium behavior in quantum game-theoretic settings.
-
-[GitHub – Quantum Simulation]
-
-<br>
-
-### <strong>Diffusion-Limited Aggregation (Fractal Growth Simulation)</strong>
-
-Modeled stochastic aggregation processes to study fractal growth, particle attachment dynamics, and emergent geometric complexity.
-
-[GitHub – DLA Simulation]
-
-<br>
-
-## <span style="color:#1f4fd8;"><strong>Publications</strong></span>
-
-- *Multi-Modal Machine Learning for Political Video Advertisement Analysis* — International Journal of Computer Applications (2024)
-
-- *Building Resilience through ESG: Evaluating Indian PSUs in the Context of Global Emerging Markets* — International Conference on Business Analytics and Intelligence, IIM Bangalore (2024)
+<p>
+• <em>Building Resilience through ESG: Evaluating Indian PSUs</em> — IIM Bangalore (2024)
+</p>
