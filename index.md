@@ -105,6 +105,13 @@ At IISER, I developed subgenre classification models using hybrid neural and lin
 
 ## Selected Projects
 
+**QuanBench Agentic Evaluator — Quantum Code Generation with LLMs**
+
+This project builds a multi-agent repair loop for evaluating and generating quantum circuits using large language models, grounded in the QuanBench-44 benchmark (arXiv:2510.16779). The system generates Qiskit 2.x code from natural language descriptions, runs it against a quantum simulator oracle using KL divergence and process fidelity metrics, classifies failures into six typed buckets, and iteratively repairs the circuit using structured prompt engineering. A circuit inspector computes unitary fidelity between generated and canonical circuits to guide targeted repairs. The system achieves 68.8% pass rate on 16 benchmark tasks versus the paper's reported baseline — a +31.8pp improvement attributable to the repair loop. A second phase supports open-ended natural language tasks with no canonical solution, using an LLM-written self-evaluation oracle. A live Streamlit demo allows real-time circuit generation and visualization from plain English.
+
+<a href="https://github.com/moul1k/quanbench-agent-natural-language" class="button-link">Github</a>
+<a href="https://quanbench-agent-natural-language.streamlit.app/" class="button-link">Live Demo</a>
+
 **Machine Learning – Driven Discovery of Stable Heusler Alloys**
 
 This project focused on predicting thermodynamic stability in Heusler compounds using supervised and generative machine learning models. I implemented XGBoost classifiers achieving high test accuracy and CGCNN graph neural networks with strong R² performance for formation energy prediction. To explore compositional search, I trained conditional WGAN-GP models to generate candidate stable alloys. The workflow integrated materials database preprocessing, compositional feature engineering, and graph-based structural representations.
